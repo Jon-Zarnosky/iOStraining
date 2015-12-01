@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375EECED1C05016C00E6EC80 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EECEC1C05016C00E6EC80 /* Vehicle.m */; };
+		375EECF01C05027D00E6EC80 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EECEF1C05027D00E6EC80 /* Car.m */; };
+		375EECF31C0CE66C00E6EC80 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EECF21C0CE66C00E6EC80 /* Animal.m */; };
+		375EECF61C0CEACB00E6EC80 /* Cheetah.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EECF51C0CEACB00E6EC80 /* Cheetah.m */; };
 		3779D71C1BFD1B2D004B73A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779D71B1BFD1B2D004B73A6 /* main.m */; };
 		3779D71F1BFD1B2D004B73A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779D71E1BFD1B2D004B73A6 /* AppDelegate.m */; };
 		3779D7221BFD1B2D004B73A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3779D7211BFD1B2D004B73A6 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		375EECEB1C05016C00E6EC80 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		375EECEC1C05016C00E6EC80 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		375EECEE1C05027D00E6EC80 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		375EECEF1C05027D00E6EC80 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		375EECF11C0CE66C00E6EC80 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		375EECF21C0CE66C00E6EC80 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		375EECF41C0CEACB00E6EC80 /* Cheetah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cheetah.h; sourceTree = "<group>"; };
+		375EECF51C0CEACB00E6EC80 /* Cheetah.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cheetah.m; sourceTree = "<group>"; };
 		3779D7171BFD1B2D004B73A6 /* iOStraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOStraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3779D71B1BFD1B2D004B73A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3779D71D1BFD1B2D004B73A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +118,14 @@
 				3779D7201BFD1B2D004B73A6 /* ViewController.h */,
 				3779D7211BFD1B2D004B73A6 /* ViewController.m */,
 				3779D7231BFD1B2D004B73A6 /* Main.storyboard */,
+				375EECEB1C05016C00E6EC80 /* Vehicle.h */,
+				375EECEC1C05016C00E6EC80 /* Vehicle.m */,
+				375EECEE1C05027D00E6EC80 /* Car.h */,
+				375EECEF1C05027D00E6EC80 /* Car.m */,
+				375EECF11C0CE66C00E6EC80 /* Animal.h */,
+				375EECF21C0CE66C00E6EC80 /* Animal.m */,
+				375EECF41C0CEACB00E6EC80 /* Cheetah.h */,
+				375EECF51C0CEACB00E6EC80 /* Cheetah.m */,
 				3779D7261BFD1B2D004B73A6 /* Assets.xcassets */,
 				3779D7281BFD1B2D004B73A6 /* LaunchScreen.storyboard */,
 				3779D72B1BFD1B2D004B73A6 /* Info.plist */,
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375EECF01C05027D00E6EC80 /* Car.m in Sources */,
+				375EECED1C05016C00E6EC80 /* Vehicle.m in Sources */,
 				3779D7221BFD1B2D004B73A6 /* ViewController.m in Sources */,
+				375EECF31C0CE66C00E6EC80 /* Animal.m in Sources */,
 				3779D71F1BFD1B2D004B73A6 /* AppDelegate.m in Sources */,
+				375EECF61C0CEACB00E6EC80 /* Cheetah.m in Sources */,
 				3779D71C1BFD1B2D004B73A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +522,7 @@
 				3779D7461BFD1B2D004B73A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3779D7471BFD1B2D004B73A6 /* Build configuration list for PBXNativeTarget "iOStrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				3779D7491BFD1B2D004B73A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3779D74A1BFD1B2D004B73A6 /* Build configuration list for PBXNativeTarget "iOStrainingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				3779D74C1BFD1B2D004B73A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
